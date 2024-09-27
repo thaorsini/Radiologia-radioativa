@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+    
+</head>
+<head>
+  <header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./calculadora.html">Calculadora</a></li>
+            <li><a href="./artigos">Artigos</a></li>
+            
+        </ul>
+    </nav>
+</header>
+  <title>Calculadora de kV e mAs</title>
+
+
+</head>
+<body>
+  <div class="calculator-container">
+    <section>
+      <h1>Calculadora de kV e mAs</h1>
+      <form>
+        <label for="espessura">Espessura (em mm):</label>
+        <input type="number" id="espessura" value="10">
+        <br>
+        <label for="constanteAparelho">Constante do aparelho:</label>
+        <input type="number" id="constanteAparelho" value="40">
+        <br>
+        <label>
+          <input type="checkbox" id="com-bucky">Com bucky</label>
+        <br>
+        <label for="compensacaoDistancia">Compensação de distância:</label>
+        <select id="compensacaoDistancia">
+          <option value="nenhuma">Nenhuma</option>
+          <option value="+4kV">+4kV</option>
+          <option value="-4kV">-4kV</option>
+        </select>
+      </form>
+      <button class="button" id="botaoResultado">Calcular</button>
+      <button class="button" id="botaoClean">Limpar</button>
+      <div class="resultado-container">
+        <p id="resultado"></p>
+      </section>
+    </div>
+    <h2>
+    <p>Estruturas que medem mais de 10cm ou ter o kV maior que 60 é utilizado o Bucky.</p></h2>
+  <script defer="defer" src="calculadora.js"></script>
+
+</body>
+<footer>
+  <p>&copy; Thamara Celestino, 2024</p>
+</footer>
+</html>

@@ -1,0 +1,274 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.poiret-one-regular {
+    font-family: "Poiret One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+
+@font-face {
+    font-family: indie;
+    src: url(IndieFlower-Regular.ttf),
+  }
+  @font-face{
+    font-family: leitura;
+    src: url(PlaywriteDEGrund-VariableFont_wght.ttf);
+  }
+  *
+  { 
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+  }
+    
+    body {
+      font-family: "Poiret One", system-ui;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 1.5;
+      color: #333;
+      background-image: url();
+      background-repeat: no-repeat;
+      background-size: auto
+      
+    }
+    
+    h1 {
+      font-family: "Poiret One";
+      font-size: 24px;
+      font-weight: 600;
+      color: #1c2f1f;
+      text-align: center;
+      
+    }
+    
+    h2 {
+      font-family: "leitura", system-ui;
+      font-size: 20px;
+      font-weight: 300;
+      color: #1f1f1f;
+  
+    }
+    h3 {
+      font-family: "leitura", sans-serif;
+      font-size: 20px;
+      color: #091a48;
+    }
+    h4 {
+      font-family: "leitura", sans-serif;
+      font-size: 20px;
+      color: #2e1336;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #e382e3;
+    }
+    
+    a:hover {
+      color: #787aff;
+    }
+    
+    /* Header Styles */
+    
+    header {
+      background-color: #e382e3;
+      padding: 14px;
+      text-align: center;
+    }
+    
+    header nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    header nav li {
+      margin-right: 20px;
+    }
+    
+    header nav a {
+      color: #fff;
+    }
+    
+    header nav a:hover {
+      color: #787aff;
+    }
+    
+    
+    /* Calculadora */
+    
+    .calculadora {
+      padding: 50px;
+    }
+    
+    .calculadora h2 {
+      margin-bottom: 20px;
+    }
+    
+    .calculadora img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    
+    .calculadora p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+    
+    /* Artigos */
+    
+    .artigos {
+      padding: 40px;
+    }
+    
+    .artigos h2 {
+      margin-bottom: 20px;
+    }
+    
+    .artigos img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+    
+    .artigos p {
+      font-size: 18px;
+      margin-bottom: 40px;
+    }
+    .main {
+      position: relative;
+      padding-bottom: 100px; /* altura do rodapé */
+    }
+   /*main*/ 
+  .historia-container5 {
+        width: 450px;
+        height: 350px;
+        background-color: #8dffc2;
+        border: 1px solid #ceffef;
+        border-radius: 10px;
+        padding: 20px;
+        margin: 10px auto;
+        display: flex;
+        align-self: center;
+        font-family: "Poiret One", system-ui;
+  }
+  .apl{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .apl > div{
+    flex: 1 1 500px;
+    width: 350px;
+    height: 590px;
+    background-color: #f6f8bfec;
+    border: 1px solid #ceffef;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    align-self: center;
+
+  }
+  .apl1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .apl2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .apl3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .apl4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .apl5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .apl6{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .apl7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .apl8{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .apl9{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .apl10{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .botoes {
+    display: inline-flex;
+    margin: 100px;
+  }
+  .botao {
+    align-self: right;
+    margin: 50px;
+    padding-right: 500px;
+    background-color: #b3d8f0;
+    border: 1px solid #cee2ff;
+    border-radius: 10px;
+    padding: 40px 125px;
+    font-family: "indie";
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .botao:hover {
+    background-color: #f1ff59;
+    opacity: 0.8;
+  }
+  .botao2 {
+    align-self: left;
+    margin: 50px;
+    padding-left: 0px;
+    background-color: #d9a5f7;
+    border: 1px solid #ab93b0;
+    border-radius: 10px;
+    padding: 40px 125px;
+    font-family: "indie";
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .botao2:hover {
+    background-color: #9aedc8;
+    opacity: 0.8;
+  }
+       /* Footer Styles */
+    
+       footer {
+        background-color: #e382e3;
+        padding: 10px;
+        text-align: center;
+        color: #fff;
+        font-family: "leitura";
+        position: sticky;
+        bottom: 0;
+        width: 100%;
+      }
+      
+      footer p {
+        font-family: "leitura";
+        font-weight: 200;
+        font-size: 14px;
+        margin-bottom: 20}

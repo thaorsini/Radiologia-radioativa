@@ -1,0 +1,209 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.poiret-one-regular {
+    font-family: "Poiret One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+  font-family: leitura;
+  src: url(PlaywriteDEGrund-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: indie;
+  src: url(IndieFlower-Regular.ttf);
+}
+
+*
+{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+  body {
+    font-family: "Poiret One", system-ui;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #333;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: auto
+    
+  }
+  
+  h1 {
+    font-family: "indie";
+    font-size: 24px;
+    font-weight: bold;
+    color: #6e214c;
+    text-align: center;
+    
+  }
+  
+  h2 {
+    font-family: "conforto", sans-serif;
+    font-size: 16px;
+    color: #333;
+
+  }
+  h3 {
+    font-family: "indie";
+    font-size: 20px;
+    color: #091a48;
+  }
+  h4{
+  font-family: "leitura";
+    font-size: 18px;
+    color: #3d1f1f;
+    text-align: left;
+  }
+  h5 {
+    font-family: "leitura";
+    font-size: 18px;
+    color: #31164b;
+    text-align: right;
+  }
+  a {
+    text-decoration: none;
+    color: #e382e3;
+  }
+  
+  a:hover {
+    color: #787aff;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #e382e3;
+    padding: 14px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+  }
+  
+  header nav a:hover {
+    color: #787aff;
+  }
+  
+  
+  /* Calculadora */
+  
+  .calculadora {
+    padding: 50px;
+  }
+  
+  .calculadora h2 {
+    margin-bottom: 20px;
+  }
+  
+  .calculadora img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .calculadora p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  /* Artigos */
+  
+  .artigos {
+    padding: 40px;
+  }
+  
+  .artigos h2 {
+    margin-bottom: 20px;
+  }
+  
+  .artigos img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .artigos p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+ /*main*/ 
+ .body {
+  position: relative;
+  padding-bottom: 100px; /* altura do rodapé */
+}
+.historia-container {
+      width: 1000px;
+      height: 2300px;
+      background-color: #ffddd6;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 40px auto;
+      display: flex;
+      align-self: center;
+      font-family: "leitura";
+}
+.img{
+  text-align: center;
+}
+.gif{
+  text-align: center;
+}
+
+.botao {
+  display: flex;
+  align-self: right;
+  margin: 50px;
+  padding-right: 25px;
+  background-color: #b3d8f0;
+  border: 1px solid #cee2ff;
+  border-radius: 10px;
+  padding: 40px 125px;
+  font-family: "indie";
+  font-size: 30px;
+  font-weight: bold;
+}
+.botao:hover {
+  background-color: #f1ff59;
+  opacity: 0.8;
+}
+
+
+     /* Footer Styles */
+  
+  footer {
+    background-color: #e382e3;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: "leitura";
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-family: "leitura";
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 20}

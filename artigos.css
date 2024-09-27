@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.poiret-one-regular {
+    font-family: "Poiret One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+@font-face {
+  font-family: indie;
+  src: url(IndieFlower-Regular.ttf)
+}
+@font-face{
+  font-family: leitura;
+  src: url(PlaywriteDEGrund-VariableFont_wght.ttf)
+}
+*
+{ 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+  
+  body {
+    font-family: "Poiret One", system-ui;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: auto
+    
+  }
+  
+  h1 {
+    font-family: "indie";
+    font-size: 24px;
+    font-weight: bold;
+    color: #433859;
+    text-align: center;
+    
+  }
+  
+  h2 {
+    font-family: "Poiret One", system-ui;
+    font-size: 20px;
+    font-weight: 600;
+    color: #042915;
+
+  }
+  h3 {
+    font-family: "indie";
+    font-size: 20px;
+    color: #091a48;
+  }
+  h4 {
+    font-family: "indie";
+    font-size: 20px;
+    color: #2e1336;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #e382e3;
+  }
+  
+  a:hover {
+    color: #787aff;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #e382e3;
+    padding: 14px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+  }
+  
+  header nav a:hover {
+    color: #787aff;
+  }
+  
+  
+  /* Calculadora */
+  
+  .calculadora {
+    padding: 50px;
+  }
+  
+  .calculadora h2 {
+    margin-bottom: 20px;
+  }
+  
+  .calculadora p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  /* Artigos */
+  
+  .artigos {
+    padding: 40px;
+  }
+  
+  .artigos h2 {
+    margin-bottom: 20px;
+  }
+  
+  
+  .artigos p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  .main {
+    position: relative;
+    padding-bottom: 1000px; /* altura do rodapé */
+  }
+ /*main*/ 
+ .accordion {
+  margin-bottom: 20px;
+}
+.accordion-content-visible {
+  display: block;
+}
+
+.accordion-button1 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-family: "Poiret One", system-ui;
+}
+.accordion-button2 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.accordion-button3 {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+.accordion-button:hover {
+  background-color: #ccc;
+}
+
+.accordion-content {
+  padding: 10px;
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  display: none;
+}
+     /* Footer Styles */
+  
+  footer {
+    background-color: #e382e3;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: "leitura";
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-family: "leitura";
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 20}

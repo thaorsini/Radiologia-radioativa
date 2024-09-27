@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.poiret-one-regular {
+    font-family: "Poiret One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+@font-face {
+  font-family: leitura;
+  src: url(PlaywriteDEGrund-VariableFont_wght.ttf);
+}
+* 
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  body {
+    font-family: "Poiret One";
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: auto
+    
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #a152a1;
+  }
+  
+  h1 {
+    font-family: "leitura";
+    font-size: 24px;
+  }
+  
+  h2 {
+    color: #c80404;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #e382e3;
+  }
+  
+  a:hover {
+    color: #787aff;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #e382e3;
+    padding: 14px;
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav li {
+    margin-right: 20px;
+  }
+  
+  header nav a {
+    color: #fff;
+  }
+  
+  header nav a:hover {
+    color: #787aff;
+  }
+  
+  
+  /* Calculadora */
+
+  body {
+    font-family: 'Poiret One';
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    
+      position: relative;
+      padding-bottom: 100px; /* altura do rodapé */
+
+  }
+  .calculator-container {
+      font-family: sans-serif;
+      font-weight: 400;
+      width: 500px;
+      height: 350px;
+      background-color: #fff98d;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 40px auto;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    
+  }
+  .calculator-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .calculator-form label {
+    margin-bottom: 10px;
+  }
+  .calculator-form input[type="number"] {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+  .calculator-form input[type="text"] {
+    font-family: sans-serif;
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+  }
+  .calculadora-form select {
+    width: 100px;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+  
+  .calculator-form button:hover {
+    background-color: #3e8e41;
+  }
+  .resultado-container {
+    width: 250px;
+    height: 90px;
+    background-color:none;
+    border: none;
+    border-radius: none;
+    margin: 90px;
+    padding: 20px;
+    margin-top: 10px;
+    align-content: center;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    color:#511010;
+  }
+  .button {
+    width: 180px;
+    height: 50px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+  
+  .button:hover {
+    background-color:#ffb545
+  }
+  
+  /* Artigos */
+  
+  .artigos {
+    padding: 40px;
+  }
+  
+  .artigos h2 {
+    margin-bottom: 20px;
+  }
+  
+  .artigos img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .artigos p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+     /* Footer Styles */
+  
+  footer {
+    background-color: #e382e3;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-family: "leitura";
+    font-weight: 200;
+    font-size: 14px;
+    margin-bottom: 20}
