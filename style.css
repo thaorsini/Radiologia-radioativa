@@ -148,10 +148,10 @@
   }
  /*main*/ 
 .historia-container {
-      width: 500px;
+      width: 550px;
       height: 350px;
-      background-color: #8dffc2;
-      border: 1px solid #ceffef;
+      background-color: none;
+      border: 1px solid none;
       border-radius: 10px;
       padding: 20px;
       margin: 10px auto;
